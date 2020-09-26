@@ -1,0 +1,37 @@
+{
+  "name": "react-native-webview-controller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "files": [
+    "src/",
+    "lib/",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-gesture-handler": "*",
+    "react-native-reanimated": "*",
+    "react-native-safe-area-context": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.44",
+    "@types/react-native": "^0.63.2",
+    "react": "16.13.1",
+    "react-native": "0.63.2",
+    "react-native-gesture-handler": "^1.8.0",
+    "react-native-orientation-locker": "^1.2.0",
+    "react-native-reanimated": "^1.13.0",
+    "react-native-redash": "11.0.0",
+    "react-native-safe-area-context": "^3.1.8",
+    "react-native-svg": "^12.1.0",
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Daniel Bryan",
+  "license": "ISC"
+}
